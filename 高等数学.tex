@@ -122,9 +122,9 @@
 \newcommand{\addentheorem}[1][]{\vspace{1.2em}\hspace*{-1.5em}\s \refstepcounter{theorem}\label{#1} \mybox[dl]{\color{dl}\thetheorem\hspace{1em}#1}\vspace{0.5em}  \par}
 
 %推论类
-\newcommand{\inference}[1][]{\vspace{1em}\s \refstepcounter{inference}\label{#1} \mybox[inference]{\color{inference}\theinference\hspace{1em}#1}\vspace{0.5em}   \par}
-\newcommand{\enupinference}[1][]{\vspace{1em}\s \refstepcounter{inference}\label{#1} \mybox[inference]{\color{inference}\theinference\hspace{1em}#1}\vspace*{-0.8cm}  }
-\newcommand{\enbelowinference}[1][]{\hspace*{-1.5em}\s \refstepcounter{inference}\label{#1} \mybox[inference]{\color{inference}\theinference\hspace{1em}#1}  \par}
+\newcommand{\inference}[1][]{\vspace{1em}\s \refstepcounter{inference} \mybox[inference]{\color{inference}\theinference\hspace{1em}#1}\vspace{0.5em}   \par}
+\newcommand{\enupinference}[1][]{\vspace{1em}\s \refstepcounter{inference} \mybox[inference]{\color{inference}\theinference\hspace{1em}#1}\vspace*{-0.8cm}  }
+\newcommand{\enbelowinference}[1][]{\hspace*{-1.5em}\s \refstepcounter{inference} \mybox[inference]{\color{inference}\theinference\hspace{1em}#1}  \par}
 \newcommand{\tinference}[1][]{\s \refstepcounter{inference}\label{#1} \mybox[inference]{\color{inference}\theinference\hspace{1em}#1}\vspace*{0.5em} \par }
 \newcommand{\addinference}[1][]{\vspace{1.2em}\s \refstepcounter{inference}\label{#1} \mybox[inference]{\color{inference}\theinference\hspace{1em}#1}\vspace{0.5em} \par}
 \newcommand{\addeninference}[1][]{\vspace{1.2em}\hspace*{-1.5em}\s \refstepcounter{inference}\label{#1} \mybox[inference]{\color{inference}\theinference\hspace{1em}#1}\vspace{0.5em} \par}
@@ -171,7 +171,7 @@
 \author{
 	{\CJKfamily{kai} \large {易鹏}}\\
 	{\CJKfamily{kai} \large 中山大学}\vspace*{0.5em}\\
-	内部版本号：V5.08.42$\,\,$(内测版)\\
+	内部版本号：V5.08.47$\,\,$(内测版)\\
 }
 
 
@@ -211,12 +211,15 @@
 \def\degree{{}^{\circ}}
 \newcommand{\examples}{\vspace*{1em}\noindent  \refstepcounter{examples} \tcbox[colframe =ex, colback =ex!10!white,boxrule=0.5mm,size=small,on line]{\color{ex}{\theexamples}}\hspace{1.5em}}
 \newcommand{\tl}{\vspace*{1em}\noindent \refstepcounter{tl} \tcbox[colframe =tl, colback =tl!10!white,boxrule=0.5mm,size=small,on line]{\color{tl}{\thetl}}\hspace{1.5em}}
+
+%证明和解
 \newcommand{\proof}{\vspace*{1em} \noindent  \hspace*{0.2em}  \tcbox[colframe =black, colback =black!10!white,boxrule=0.5mm,size=small,on line]{\color{black}{{\CJKfamily{heiti}证}}}\hspace{1.5em}}
 \newcommand{\solve}{\vspace*{1em} \noindent  \hspace*{0.2em}  \tcbox[colframe =black, colback =black!10!white,boxrule=0.5mm,size=small,on line]{\color{black}{{\CJKfamily{heiti}解}}}\hspace{1.5em}}
+\newcommand{\solveother}{\vspace*{1em} \noindent  \hspace*{0.2em}  \tcbox[colframe =black, colback =black!10!white,boxrule=0.5mm,size=small,on line]{\color{black}{{\CJKfamily{heiti}另解}}}\hspace{1.5em}}
 \newcommand{\errsolve}{\vspace*{1em} \noindent  \hspace*{0.2em}  \tcbox[colframe =red, colback =red!10!white,boxrule=0.5mm,size=small,on line]{\color{red}{{\CJKfamily{heiti}错解}}}\hspace{1.5em}}
 \newcommand{\errreason}{\vspace*{1em} \noindent  \hspace*{0.2em}  \tcbox[colframe =red, colback =red!10!white,boxrule=0.5mm,size=small,on line]{\color{red}{{\CJKfamily{heiti}错因}}}\hspace{1.5em}}
 \newcommand{\solvereason}{\vspace*{1em} \noindent  \hspace*{0.2em}  \tcbox[colframe =ForestGreen
-, colback =ForestGreen!15!white,boxrule=0.5mm,size=small,on line]{\color{ForestGreen}{{\CJKfamily{heiti}解析}}}\hspace{1.5em}}
+	, colback =ForestGreen!15!white,boxrule=0.5mm,size=small,on line]{\color{ForestGreen}{{\CJKfamily{heiti}解析}}}\hspace{1.5em}}
 
 %文档开始
 \begin{document}
