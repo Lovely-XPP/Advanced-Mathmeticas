@@ -26,6 +26,11 @@
 
   \indexspace
 
+  \lettergroup{L}
+  \item 连续, \hyperpage{11}
+
+  \indexspace
+
   \lettergroup{Q}
   \item 去心领域, \hyperpage{1}
 
@@ -44,10 +49,12 @@
 
   \lettergroup{Y}
   \item 右极限, \hyperpage{2}
+  \item 右连续, \hyperpage{11}
 
   \indexspace
 
   \lettergroup{Z}
   \item 左极限, \hyperpage{2}
+  \item 左连续, \hyperpage{11}
 
 \end{theindex}

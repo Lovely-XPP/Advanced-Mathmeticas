@@ -10,6 +10,7 @@
 \usepackage{graphicx}%插入图片的宏包
 \usepackage{subfigure} 
 \usepackage{amsmath,ntheorem,lmodern,bm}
+\usepackage{extarrows}
 \usepackage{esint}
 \usepackage{makeidx}%索引专用
 \makeindex  %添加索引
@@ -130,10 +131,10 @@
 \newcommand{\addeninference}[1][]{\vspace{1.2em}\hspace*{-1.5em}\s \refstepcounter{inference}\label{#1} \mybox[inference]{\color{inference}\theinference\hspace{1em}#1}\vspace{0.5em} \par}
 
 %定义类
-\newcommand{\defination}[1][]{\vspace{1em}\s \refstepcounter{defination}\label{#1} \mybox[dy0]{\color{dy0}\thedefination\hspace{1em}#1}\vspace{0.5em} \par}
+\newcommand{\defination}[1][]{\vspace{1em}\s \refstepcounter{defination} \mybox[dy0]{\color{dy0}\thedefination\hspace{1em}#1}\vspace{0.5em} \par}
 \newcommand{\enupdefination}[1][]{\vspace{1em}\s \refstepcounter{defination}\label{#1} \mybox[dy0]{\color{dy0}\thedefination\hspace{1em}#1}\vspace*{-0.8cm}}
 \newcommand{\enbelowdefination}[1][]{\hspace*{-1.5em}\s \refstepcounter{defination}\label{#1} \mybox[dy0]{\color{dy0}\thedefination\hspace{1em}#1} \par }
-\newcommand{\tdefination}[1][]{   \s \refstepcounter{defination}\label{#1} \mybox[dy0]{\color{dy0}\thedefination\hspace{1em}#1}\vspace*{0.5em}  \par }
+\newcommand{\tdefination}[1][]{   \s \refstepcounter{defination} \mybox[dy0]{\color{dy0}\thedefination\hspace{1em}#1}\vspace*{0.5em}  \par }
 \newcommand{\adddefination}[1][]{\vspace{1.2em}\s \refstepcounter{defination}\label{#1} \mybox[dy0]{\color{dy0}\thedefination\hspace{1em}#1}\vspace{0.5em} \par}
 \newcommand{\addendefination}[1][]{\vspace{1.2em}\hspace*{-1.5em}\s \refstepcounter{defination}\label{#1} \mybox[dy0]{\color{dy0}\thedefination\hspace{1em}#1}\vspace{0.5em} \par}
 
@@ -171,7 +172,7 @@
 \author{
 	{\CJKfamily{kai} \large {易鹏}}\\
 	{\CJKfamily{kai} \large 中山大学}\vspace*{0.5em}\\
-	内部版本号：V5.08.47$\,\,$(内测版)\\
+	内部版本号：V5.08.48$\,\,$(内测版)\\
 }
 
 
@@ -198,6 +199,8 @@
 %\renewcommand{\footrulewidth}{0pt}
 
 %自定义命令
+\newcommand{\blackbf}[1][]{{\CJKfamily{heiti}#1}}
+\newcommand{\link}[1][]{\hyperref[#1] {\color{超链接}#1}}
 \newcommand{\sj}{\vspace*{-1em}}
 \newcommand{\eqsj}{\vspace*{-2.5em}}
 \newcommand{\jg}{\vspace*{1em}}
@@ -211,6 +214,11 @@
 \def\degree{{}^{\circ}}
 \newcommand{\examples}{\vspace*{1em}\noindent  \refstepcounter{examples} \tcbox[colframe =ex, colback =ex!10!white,boxrule=0.5mm,size=small,on line]{\color{ex}{\theexamples}}\hspace{1.5em}}
 \newcommand{\tl}{\vspace*{1em}\noindent \refstepcounter{tl} \tcbox[colframe =tl, colback =tl!10!white,boxrule=0.5mm,size=small,on line]{\color{tl}{\thetl}}\hspace{1.5em}}
+\newcommand{\warn}[1][]{
+	\vspace*{0.5em}
+	\begin{tcolorbox}[colframe=red!75!black, colback=yellow!10!white,title=注意,fonttitle =\large \CJKfamily{heiti}]
+	#1
+\end{tcolorbox}}
 
 %证明和解
 \newcommand{\proof}{\vspace*{1em} \noindent  \hspace*{0.2em}  \tcbox[colframe =black, colback =black!10!white,boxrule=0.5mm,size=small,on line]{\color{black}{{\CJKfamily{heiti}证}}}\hspace{1.5em}}
