@@ -207,11 +207,13 @@
 \lim\limits_{n \to \infty}\frac{n^k}{a^n}=0.
 \end{equation*}
 \hspace*{-0.5em}\proof 令$t=a-1$,则$t>0$,那么
-$$a_n=(1+t)^n=1+nt+\frac{n(n-1)}{2!}t^2+\cdots+\frac{n(n-1)\cdot(n-k)}{(k+1)!}t^{k+1}+\cdots+t^n,$$
+\[
+a_n=(1+t)^n=1+nt+\frac{n(n-1)}{2!}t^2+\cdots+\frac{n(n-1)\cdot(n-k)}{(k+1)!}t^{k+1}+\cdots+t^n,
+\]
 因此,当$n>1$时,$\displaystyle a^n>\frac{n(n-1)\cdots(n-k)}{(k+1)!}t^{k+1}$,于是
-$$
+\[
 0 \le \frac{n^k}{a^n}\le \frac{n^k}{\displaystyle \frac{n(n-1)\cdots(n-k)}{(k+1)!}t^{k+1}}=\frac{(k+1)!}{t^{k+1}}\cdot \frac{n^k}{n(n-1)\cdots(n-k)}=\frac{(k+1)!}{t^{k+1}}\cdot\frac{n^k}{\lambda_{k+1}n^{k+1}+\lambda_kn^k+\cdots+\lambda_1n+\lambda_0}
-$$
+\]
 其中$\lambda_0,\lambda_1,\cdots,\lambda_{k+1}$均为非零常数.注意到$\displaystyle \frac{(k+1)!}{t^{k+1}}$为常数,则
 \begin{equation*}
 \begin{split}
@@ -440,9 +442,48 @@ $$
 在区间上每一点都连续的函数,叫做在该区间上的连续函数,或者说函数在该区间上连续.如果区间包括端点,那么函数在右端点是指右端点的左连续,在左端点是指左端点的右连续.
 
 \blackbf[连续函数的图形是一条连续而不间断的线(可能是直线,也可能是曲线).]
+\jg
 
+\subsection{函数的间断点}
+\tdefination[函数的间断点]
+设函数$y=f(x)$在点$x_0$的某一邻域内有定义.在此前提条件下,如果函数有下列三种情况之一:\\[0.5em]
+(1) 在$x=x_0$处没有定义;\hspace{12em}(2) 虽在$x=x_0$处有定义,但是$\displaystyle \lim\limits_{x \to x_0}f(x)$不存在;\\[0.5em]
+(3) 虽在$x=x_0$处有定义,$\displaystyle \lim\limits_{x \to x_0}f(x)$存在,但$\displaystyle \lim_{x \to x_0}f(x) \ne f(x_0)$.\\[0.5em]
+那么就称函数$f(x)$在点$x_0$处不连续,而点$x_0$称为函数$f(x)$的\dy[不连续点]{BLXD}或\dy[间断点]{JDD}.
 
+如果$x_0$是函数$f(x)$的间断点,但左极限$f(x_0^-)$和右极限$f(x_0^+)$都存在,那么点$x_0$就称为函数$f(x)$的\dy[第一类间断点]{DYLJDD},不是第一类间断点的任何间断点都是\dy[第二类间断点]{DELJDD}.常见的具体分类间下表\ref{函数间断点的分类}.
+\begin{table}[!htb]
+	\centering
+	\renewcommand{\arraystretch}{1}
+	\setlength{\tabcolsep}{16mm}{
+		\begin{tabular}{cc}
+			\toprule[1.5pt] 
+			\rowcolor[gray]{0.9} \blackbf[第一类间断点] & \blackbf[第二类间断点] \\
+			\midrule
+			可去间断点 & 无穷间断点\\
+			\midrule
+			 跳跃间断点 & 震荡间断点\\
+			\bottomrule[1.5pt]
+		\end{tabular}  
+	}
+	\caption{函数间断点的分类}
+	\renewcommand{\arraystretch}{1}
+	\label{函数间断点的分类}
+\end{table} 
 
+\defination[无穷间断点]
+若$x_0$是函数$f(x)$的间断点,且$\lim\limits_{x \to x_0}f(x)=\infty $,那么我们称点$x_0$是函数的\dy[无穷间断点]{WQJDD}.\jg
 
+\simpleexamples $\displaystyle x=\frac{\pi}{2}$是函数$y=\tan x$的无穷间断点.
+
+\defination[振荡间断点]
+若$x_0$是函数$f(x)$的间断点,且当$x \to x_0$时,函数值在多个值之间变动无穷多次,那么我们称点$x_0$是函数$f(x)$的\dy[振荡间断点]{ZDJDD}.\jg
+
+\simpleexamples $\displaystyle x = 0$是函数$\displaystyle y =\sin\frac{1}{x}$的振荡间断点.
+
+\warn[
+\kg 若点$x_0$是函数$f(x)$的振荡间断点,那么在函数$f(x)$在点$x_0$处的任意的去心邻域都无确定的值.
+\kg 进一步说,如果函数$f(x)$的导函数是$f'(x)$,点$x_$
+]
 
 

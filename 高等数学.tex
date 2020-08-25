@@ -172,7 +172,7 @@
 \author{
 	{\CJKfamily{kai} \large {易鹏}}\\
 	{\CJKfamily{kai} \large 中山大学}\vspace*{0.5em}\\
-	内部版本号：V5.08.48$\,\,$(内测版)\\
+	内部版本号：V5.08.49$\,\,$(内测版)\\
 }
 
 
@@ -203,6 +203,7 @@
 \newcommand{\link}[1][]{\hyperref[#1] {\color{超链接}#1}}
 \newcommand{\sj}{\vspace*{-1em}}
 \newcommand{\eqsj}{\vspace*{-2.5em}}
+\newcommand{\kg}{\hspace*{2em}}
 \newcommand{\jg}{\vspace*{1em}}
 \newcommand{\huo}{\quad \mbox{或} \quad}
 \renewcommand{\d}{{\rm{d}}}
@@ -212,14 +213,8 @@
 \renewcommand{\oiint}{\varoiint}
 \newcommand{\ds}[1][]{\colorbox{文字底色}{#1}}
 \def\degree{{}^{\circ}}
-\newcommand{\examples}{\vspace*{1em}\noindent  \refstepcounter{examples} \tcbox[colframe =ex, colback =ex!10!white,boxrule=0.5mm,size=small,on line]{\color{ex}{\theexamples}}\hspace{1.5em}}
-\newcommand{\tl}{\vspace*{1em}\noindent \refstepcounter{tl} \tcbox[colframe =tl, colback =tl!10!white,boxrule=0.5mm,size=small,on line]{\color{tl}{\thetl}}\hspace{1.5em}}
-\newcommand{\warn}[1][]{
-	\vspace*{0.5em}
-	\begin{tcolorbox}[colframe=red!75!black, colback=yellow!10!white,title=注意,fonttitle =\large \CJKfamily{heiti}]
-	#1
-\end{tcolorbox}}
 
+%--------------------------------------------------------图框定义---------------------------------------------------------%
 %证明和解
 \newcommand{\proof}{\vspace*{1em} \noindent  \hspace*{0.2em}  \tcbox[colframe =black, colback =black!10!white,boxrule=0.5mm,size=small,on line]{\color{black}{{\CJKfamily{heiti}证}}}\hspace{1.5em}}
 \newcommand{\solve}{\vspace*{1em} \noindent  \hspace*{0.2em}  \tcbox[colframe =black, colback =black!10!white,boxrule=0.5mm,size=small,on line]{\color{black}{{\CJKfamily{heiti}解}}}\hspace{1.5em}}
@@ -228,6 +223,22 @@
 \newcommand{\errreason}{\vspace*{1em} \noindent  \hspace*{0.2em}  \tcbox[colframe =red, colback =red!10!white,boxrule=0.5mm,size=small,on line]{\color{red}{{\CJKfamily{heiti}错因}}}\hspace{1.5em}}
 \newcommand{\solvereason}{\vspace*{1em} \noindent  \hspace*{0.2em}  \tcbox[colframe =ForestGreen
 	, colback =ForestGreen!15!white,boxrule=0.5mm,size=small,on line]{\color{ForestGreen}{{\CJKfamily{heiti}解析}}}\hspace{1.5em}}
+
+%例
+\newcommand{\examples}{\vspace*{1em}\noindent  \refstepcounter{examples} \tcbox[colframe =ex, colback =ex!10!white,boxrule=0.5mm,size=small,on line]{\color{ex}{\theexamples}}\hspace{1.5em}}
+\newcommand{\simpleexamples}{ \noindent  \tcbox[colframe =ex, colback =ex!10!white,boxrule=0.5mm,size=small,on line]{\CJKfamily{heiti} \color{ex}{例}}\hspace{1.5em}}
+
+%推论
+\newcommand{\tl}{\vspace*{1em}\noindent \refstepcounter{tl} \tcbox[colframe =tl, colback =tl!10!white,boxrule=0.5mm,size=small,on line]{\color{tl}{\thetl}}\hspace{1.5em}}
+
+%注意
+\newcommand{\warn}[1][]{
+	\vspace*{0.5em}
+	\begin{tcolorbox}[colframe=red!75!black, colback=yellow!10!white,title=注意,fonttitle =\large \CJKfamily{heiti}]
+		#1
+\end{tcolorbox}}
+
+%------------------------------------------------------------------------------------------------------------------------%
 
 %文档开始
 \begin{document}
