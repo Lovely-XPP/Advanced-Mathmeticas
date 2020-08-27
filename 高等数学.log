@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.5.15)  25 AUG 2020 20:11
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.5.15)  27 AUG 2020 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1157,6 +1157,86 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@dima=\skip115
 \bigstrutjot=\dimen341
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen342
+\pgffor@skip=\dimen343
+\pgffor@stack=\toks59
+\pgffor@toks=\toks60
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count343
+\pgfplotmarksize=\dimen344
+)
+\tikz@lastx=\dimen345
+\tikz@lasty=\dimen346
+\tikz@lastxsaved=\dimen347
+\tikz@lastysaved=\dimen348
+\tikz@lastmovetox=\dimen349
+\tikz@lastmovetoy=\dimen350
+\tikzleveldistance=\dimen351
+\tikzsiblingdistance=\dimen352
+\tikz@figbox=\box130
+\tikz@figbox@bg=\box131
+\tikz@tempbox=\box132
+\tikz@tempbox@bg=\box133
+\tikztreelevel=\count344
+\tikznumberofchildren=\count345
+\tikznumberofcurrentchild=\count346
+\tikz@fig@count=\count347
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count348
+\pgfmatrixcurrentcolumn=\count349
+\pgf@matrix@numberofcolumns=\count350
+)
+\tikz@expandcount=\count351
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\arrowsize=\dimen353
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen354
+\pgfarrowlength=\dimen355
+\pgfarrowwidth=\dimen356
+\pgfarrowlinewidth=\dimen357
+)
 
 Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault'
 (xeCJK)                (FandolSong-Regular(0)).
@@ -1188,55 +1268,45 @@ Package fontspec Info: Font family 'STZhongsong(0)' created for font
 (fontspec)             <->"STZhongsong/OT:script=hani;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-\c@mycontents=\count343
-\c@theorem=\count344
-\c@defination=\count345
-\c@example=\count346
-\c@inference=\count347
-\c@examples=\count348
-\c@tl=\count349
-\c@F=\count350
-\c@G=\count351
-\c@H=\count352
+\c@mycontents=\count352
+\c@theorem=\count353
+\c@defination=\count354
+\c@example=\count355
+\c@inference=\count356
+\c@examples=\count357
+\c@tl=\count358
+\c@F=\count359
+\c@G=\count360
+\c@H=\count361
 (./高等数学.aux (./tex/C-1.aux) (./tex/C-7.aux
-
-LaTeX Warning: Label `积分的保号性' multiply defined.
-
 
 LaTeX Warning: Label `一般变换' multiply defined.
 
-) (./tex/C-8.aux) (./tex/C-9.aux
-
-LaTeX Warning: Label `二阶线性常系数齐次微分方程的通解' multiply defined.
-
-
-LaTeX Warning: Label `多种特殊线性常系数非齐次微分方程的特解' multiply defined.
-
-))
+) (./tex/C-8.aux) (./tex/C-9.aux))
 \openout1 = `高等数学.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 244.
+LaTeX Info: Redefining \selectfont on input line 247.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1272,8 +1342,8 @@ LaTeX Info: Redefining \selectfont on input line 244.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box130
-Package hyperref Info: Link coloring ON on input line 244.
+\AtBeginShipoutBox=\box134
+Package hyperref Info: Link coloring ON on input line 247.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1284,77 +1354,77 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count353
+\c@section@level=\count362
 )
-LaTeX Info: Redefining \ref on input line 244.
-LaTeX Info: Redefining \pageref on input line 244.
-LaTeX Info: Redefining \nameref on input line 244.
+LaTeX Info: Redefining \ref on input line 247.
+LaTeX Info: Redefining \pageref on input line 247.
+LaTeX Info: Redefining \nameref on input line 247.
  (./高等数学.out) (./高等数学.out)
 \@outlinefile=\write7
 \openout7 = `高等数学.out'.
 
  ABD: EveryShipout initializing macros
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-49.
+52.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-49.
+52.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-249.
+252.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-249.
+252.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 249.
+(Font)              <24.88> on input line 252.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 249.
+(Font)              <20.74> on input line 252.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 249.
+(Font)              <17.28> on input line 252.
 LaTeX Font Info:    Trying to load font information for U+esint on input line 2
-49.
+52.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 249
+LaTeX Font Info:    Trying to load font information for U+msa on input line 252
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 249
+LaTeX Font Info:    Trying to load font information for U+msb on input line 252
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
-249.
+252.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/yhmath/OMXyhex.fd
 File: OMXyhex.fd 
 File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 249.
+(Font)              <12> on input line 252.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 249.
+(Font)              <8> on input line 252.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 249.
+(Font)              <6> on input line 252.
 
 Package fontspec Info: Could not resolve font "STKaiti/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1533,18 +1603,39 @@ Overfull \hbox (11.02368pt too wide) detected at line 216
 /m/n/10 ^^A [] \OT1/lmr/m/n/10 = [] \OMS/lmsy/m/n/10 ^^A []
  []
 
-[6] [7] [8] [9] [10] [11]) [12]
+[6] [7] [8] [9] [10] [11]
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 526 replaced by U+FFFD.
+File: pictures/C-1/可去间断点.eps Graphic file (type eps)
+<pictures/C-1/可去间断点.eps>
+
+Underfull \vbox (badness 5388) has occurred while \output is active []
+
+ [12]
+[13] [14]) [15]
 \openout2 = `tex/C-7.aux'.
 
- (./tex/C-7.tex
-Chapter 2.
-[13
+ (./tex/C-7.tex [16
 
 
 
 ]
+Chapter 2.
+[17]
 Missing character: There is no ‘ in font rm-lmr7!
- [14]
+ [18]
 Overfull \hbox (18.07695pt too wide) in paragraph at lines 183--184
 []\TU/STZhongsong(0)/b/n/10 投 影 法 可 以 认 为 是 平 行 于 $\OML/lmm/m/it/10 z$ \TU/STZh
 ongsong(0)/b/n/10 轴 的 线 在 投 影 区 域 内 运 动，|  连 续 地 切 割 立 体 得 到 得 到 一 条 条 立 体 内 的 
@@ -1552,18 +1643,18 @@ ongsong(0)/b/n/10 轴 的 线 在 投 影 区 域 内 运 动，|  连 续 地 �
 ) \OMS/lmsy/m/n/10 !
  []
 
-[15]
+[19]
 Missing character: There is no ‘ in font rm-lmr7!
- [16]) [17]
+ [20]) [21]
 \openout2 = `tex/C-8.aux'.
 
- (./tex/C-8.tex [18
+ (./tex/C-8.tex [22
 
 
 
 ]
 Chapter 3.
-[19] [20]
+[23] [24]
 Overfull \hbox (12.17744pt too wide) in paragraph at lines 121--130
 []\TU/STZhongsong(0)/b/n/10 设 曲 线 $\OML/lmm/m/it/10 L$ \TU/STZhongsong(0)/b/n/1
 0 的 参 数 方 程 为 $[]$ 其 中 $\OML/lmm/m/it/10 x\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 t\O
@@ -1575,7 +1666,7 @@ n/10 (\OML/lmm/m/it/10 x; y; z\OT1/lmr/m/n/10 )\OML/lmm/m/it/10 ; R\OT1/lmr/m/n
 /10 (\OML/lmm/m/it/10 x; y; z\OT1/lmr/m/n/10 )$
  []
 
-[21] [22] [23] [24] [25]
+[25] [26] [27] [28] [29]
 Overfull \hbox (7.02475pt too wide) in paragraph at lines 432--450
  [][] 
  []
@@ -1583,62 +1674,62 @@ Overfull \hbox (7.02475pt too wide) in paragraph at lines 432--450
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26] [27]
+[30] [31]
 
-LaTeX Warning: Text page 28 contains only floats.
+LaTeX Warning: Text page 32 contains only floats.
 
 
 Overfull \vbox (1.43098pt too high) has occurred while \output is active []
 
 
-[28]
+[32]
 Overfull \hbox (3.66629pt too wide) in paragraph at lines 554--596
  [][] 
  []
 
-[29])
+[33])
 \openout2 = `tex/C-9.aux'.
 
- (./tex/C-9.tex [30
+ (./tex/C-9.tex [34
 
 
 
 ]
 Chapter 4.
-[31] [32] [33] [34] [35] [36] [37]
+[35] [36] [37] [38] [39] [40] [41]
 Overfull \hbox (14.42282pt too wide) in paragraph at lines 388--399
  [][] 
  []
 
-[38] [39]) [40]
+[42] [43]) [44]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 272.
+(hyperref)                be the same. Added a new anchor on input line 275.
 
 No file 高等数学.ind.
 \tf@thm=\write9
 \openout9 = `高等数学.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
 (./高等数学.aux (./tex/C-1.aux) (./tex/C-7.aux) (./tex/C-8.aux) (./tex/C-9.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 279.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 282.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
 Package rerunfilecheck Info: File `高等数学.out' has not changed.
-(rerunfilecheck)             Checksum: A5EC0D4CFC90AB701150E4AF330E0E24;9275.
+(rerunfilecheck)             Checksum: 812706B10E08557CEC69B88A901156AE;9724.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
  ) 
 Here is how much of TeX's memory you used:
- 29570 strings out of 479418
- 598544 string characters out of 5884585
- 928526 words of memory out of 5000000
- 46413 multiletter control sequences out of 15000+600000
- 614334 words of font info for 187 fonts, out of 8000000 for 9000
+ 33419 strings out of 479418
+ 692785 string characters out of 5884585
+ 1019022 words of memory out of 5000000
+ 50208 multiletter control sequences out of 15000+600000
+ 614326 words of font info for 186 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 59i,21n,96p,942b,814s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,21n,96p,942b,815s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 高等数学.pdf (44 pages).
+Output written on 高等数学.pdf (48 pages).

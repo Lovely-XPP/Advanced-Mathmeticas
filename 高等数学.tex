@@ -36,6 +36,9 @@
 \usepackage{colortbl,booktabs}%第二个包定义了几个*rule  
 \usepackage{multicol}
 \usepackage{multirow}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{arrows,arrows.meta}
 
 %字体设置
 \setCJKmainfont[BoldFont=STZhongsong]{STZhongsong}%需要查看电脑字体查找对应字体的文件英文文件名
@@ -115,7 +118,7 @@
 %4. 在列举环境中间距太小用adden+英文名
 
 %定理类
-\newcommand{\theorem}[1][]{\vspace{1em}\s \refstepcounter{theorem}\label{#1} \mybox[dl]{\color{dl}\thetheorem\hspace{1em}#1}\vspace{0.5em}  \par}
+\newcommand{\theorem}[1][]{\vspace{1em}\s \refstepcounter{theorem} \mybox[dl]{\color{dl}\thetheorem\hspace{1em}#1}\vspace{0.5em}  \par}
 \newcommand{\enuptheorem}[1][]{\vspace{1em}\s \refstepcounter{theorem}\label{#1} \mybox[dl]{\color{dl}\thetheorem\hspace{1em}#1}\vspace*{-0.8cm}}
 \newcommand{\enbelowtheorem}[1][]{\hspace*{-1.5em}\s \refstepcounter{theorem}\label{#1} \mybox[dl]{\color{dl}\thetheorem\hspace{1em}#1}  \par}
 \newcommand{\ttheorem}[1][]{\s \refstepcounter{theorem}\label{#1} \mybox[dl]{\color{dl}\thetheorem\hspace{1em}#1} \vspace*{-1em}\par }
@@ -172,7 +175,7 @@
 \author{
 	{\CJKfamily{kai} \large {易鹏}}\\
 	{\CJKfamily{kai} \large 中山大学}\vspace*{0.5em}\\
-	内部版本号：V5.08.50$\,\,$(内测版)\\
+	内部版本号：V5.08.51$\,\,$(内测版)\\
 }
 
 
@@ -234,7 +237,7 @@
 %注意
 \newcommand{\warn}[1][]{
 	\vspace*{0.5em}
-	\begin{tcolorbox}[colframe=red!75!black, colback=yellow!10!white,title=注意,fonttitle =\large \CJKfamily{heiti}]
+	\begin{tcolorbox}[colframe=red!75!black, colback=yellow!10!white,title=注意,fonttitle =\CJKfamily{heiti}]
 		#1
 \end{tcolorbox}}
 
