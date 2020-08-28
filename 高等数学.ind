@@ -1,0 +1,72 @@
+\begin{theindex}
+  \providecommand*\lettergroupDefault[1]{}
+  \providecommand*\lettergroup[1]{%
+      \par\textbf{#1}\par
+      \nopagebreak
+  }
+
+  \lettergroup{B}
+  \item 不连续点, \hyperpage{11}
+
+  \indexspace
+
+  \lettergroup{D}
+  \item 第二类间断点, \hyperpage{12}
+  \item 低阶无穷小, \hyperpage{7}
+  \item 等价无穷小, \hyperpage{7}
+  \item 第一类间断点, \hyperpage{12}
+
+  \indexspace
+
+  \lettergroup{G}
+  \item 高阶无穷小, \hyperpage{7}
+
+  \indexspace
+
+  \lettergroup{J}
+  \item 间断点, \hyperpage{11}
+  \item 极限, \hyperpage{1}
+
+  \indexspace
+
+  \lettergroup{K}
+  \item $k$阶无穷小, \hyperpage{7}
+  \item 可去间断点, \hyperpage{12}
+
+  \indexspace
+
+  \lettergroup{L}
+  \item 连续, \hyperpage{11}
+
+  \indexspace
+
+  \lettergroup{Q}
+  \item 去心领域, \hyperpage{1}
+
+  \indexspace
+
+  \lettergroup{T}
+  \item 同阶无穷小, \hyperpage{7}
+  \item 跳跃间断点, \hyperpage{12}
+
+  \indexspace
+
+  \lettergroup{W}
+  \item 无穷大, \hyperpage{2}
+  \item 无穷间断点, \hyperpage{12}
+  \item 无穷小, \hyperpage{2}
+
+  \indexspace
+
+  \lettergroup{Y}
+  \item 右极限, \hyperpage{2}
+  \item 右连续, \hyperpage{11}
+
+  \indexspace
+
+  \lettergroup{Z}
+  \item 振荡间断点, \hyperpage{12}
+  \item 左极限, \hyperpage{2}
+  \item 左连续, \hyperpage{11}
+
+\end{theindex}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.27)  28 AUG 2020 15:40
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.27)  28 AUG 2020 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1703,30 +1703,40 @@ Overfull \hbox (14.42282pt too wide) in paragraph at lines 388--399
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 283.
 
-No file 高等数学.ind.
+(./高等数学.ind [49
+
+
+])
 \tf@thm=\write9
 \openout9 = `高等数学.thm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
-(./高等数学.aux (./tex/C-1.aux) (./tex/C-7.aux) (./tex/C-8.aux) (./tex/C-9.aux))
+ (./高等数学.aux (./tex/C-1.aux) (./tex/C-7.aux) (./tex/C-8.aux)
+(./tex/C-9.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 290.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
-Package rerunfilecheck Info: File `高等数学.out' has not changed.
-(rerunfilecheck)             Checksum: 6E87E7F70852FFE57B8061E6AE3BE7EC;10110.
 
+
+Package rerunfilecheck Warning: File `高等数学.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `高等数学.out':
+(rerunfilecheck)             Before: 6E87E7F70852FFE57B8061E6AE3BE7EC;10110
+(rerunfilecheck)             After:  E94ED437BD58B1DA33728F199E354637;10252.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
- 33476 strings out of 479418
- 690485 string characters out of 5888105
+ 33483 strings out of 479418
+ 690612 string characters out of 5888105
  1020137 words of memory out of 5000000
- 50259 multiletter control sequences out of 15000+600000
- 614318 words of font info for 185 fonts, out of 8000000 for 9000
+ 50263 multiletter control sequences out of 15000+600000
+ 614326 words of font info for 186 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  59i,21n,96p,942b,815s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 高等数学.pdf (52 pages).
+Output written on 高等数学.pdf (53 pages).

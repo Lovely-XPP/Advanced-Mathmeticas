@@ -77,4 +77,6 @@
 \contentsline {section}{\numberline {4.6}二阶线性常系数微分方程}{45}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}二阶线性常系数齐次微分方程}{45}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}二阶线性常系数非齐次微分方程}{46}{subsection.4.6.2}%
+\contentsline {chapter}{附录}{49}{equation.4.6.51}%
+\contentsline {section}{索引}{49}{section*.2}%
 \contentsfinish 
