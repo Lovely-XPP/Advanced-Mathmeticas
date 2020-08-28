@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.5.15)  27 AUG 2020 12:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.5.15)  28 AUG 2020 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1285,28 +1285,28 @@ LaTeX Warning: Label `一般变换' multiply defined.
 ) (./tex/C-8.aux) (./tex/C-9.aux))
 \openout1 = `高等数学.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 255.
+LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 255.
+LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 255.
+LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 255.
+LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 255.
+LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 255.
+LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 255.
+LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 255.
+LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 255.
+LaTeX Font Info:    ... okay on input line 255.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 255.
+LaTeX Font Info:    ... okay on input line 255.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 247.
+LaTeX Info: Redefining \selectfont on input line 255.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1343,7 +1343,7 @@ LaTeX Info: Redefining \selectfont on input line 247.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box134
-Package hyperref Info: Link coloring ON on input line 247.
+Package hyperref Info: Link coloring ON on input line 255.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1356,75 +1356,75 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count362
 )
-LaTeX Info: Redefining \ref on input line 247.
-LaTeX Info: Redefining \pageref on input line 247.
-LaTeX Info: Redefining \nameref on input line 247.
+LaTeX Info: Redefining \ref on input line 255.
+LaTeX Info: Redefining \pageref on input line 255.
+LaTeX Info: Redefining \nameref on input line 255.
  (./高等数学.out) (./高等数学.out)
 \@outlinefile=\write7
 \openout7 = `高等数学.out'.
 
  ABD: EveryShipout initializing macros
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-52.
+60.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-52.
+60.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-252.
+260.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-252.
+260.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 252.
+(Font)              <24.88> on input line 260.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 252.
+(Font)              <20.74> on input line 260.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 252.
+(Font)              <17.28> on input line 260.
 LaTeX Font Info:    Trying to load font information for U+esint on input line 2
-52.
+60.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 252
+LaTeX Font Info:    Trying to load font information for U+msa on input line 260
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 252
+LaTeX Font Info:    Trying to load font information for U+msb on input line 260
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
-252.
+260.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/yhmath/OMXyhex.fd
 File: OMXyhex.fd 
 File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 252.
+(Font)              <12> on input line 260.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 252.
+(Font)              <8> on input line 260.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 252.
+(Font)              <6> on input line 260.
 
 Package fontspec Info: Could not resolve font "STKaiti/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1624,18 +1624,27 @@ File: pictures/C-1/可去间断点.eps Graphic file (type eps)
 Underfull \vbox (badness 5388) has occurred while \output is active []
 
  [12]
-[13] [14]) [15]
+[13] [14] [15]
+
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 661.
+
+[16] [17]
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
+ [18])
+[19]
 \openout2 = `tex/C-7.aux'.
 
- (./tex/C-7.tex [16
+ (./tex/C-7.tex [20
 
 
 
 ]
 Chapter 2.
-[17]
+[21]
 Missing character: There is no ‘ in font rm-lmr7!
- [18]
+ [22]
 Overfull \hbox (18.07695pt too wide) in paragraph at lines 183--184
 []\TU/STZhongsong(0)/b/n/10 投 影 法 可 以 认 为 是 平 行 于 $\OML/lmm/m/it/10 z$ \TU/STZh
 ongsong(0)/b/n/10 轴 的 线 在 投 影 区 域 内 运 动，|  连 续 地 切 割 立 体 得 到 得 到 一 条 条 立 体 内 的 
@@ -1643,18 +1652,18 @@ ongsong(0)/b/n/10 轴 的 线 在 投 影 区 域 内 运 动，|  连 续 地 �
 ) \OMS/lmsy/m/n/10 !
  []
 
-[19]
+[23]
 Missing character: There is no ‘ in font rm-lmr7!
- [20]) [21]
+ [24]) [25]
 \openout2 = `tex/C-8.aux'.
 
- (./tex/C-8.tex [22
+ (./tex/C-8.tex [26
 
 
 
 ]
 Chapter 3.
-[23] [24]
+[27] [28]
 Overfull \hbox (12.17744pt too wide) in paragraph at lines 121--130
 []\TU/STZhongsong(0)/b/n/10 设 曲 线 $\OML/lmm/m/it/10 L$ \TU/STZhongsong(0)/b/n/1
 0 的 参 数 方 程 为 $[]$ 其 中 $\OML/lmm/m/it/10 x\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 t\O
@@ -1666,7 +1675,7 @@ n/10 (\OML/lmm/m/it/10 x; y; z\OT1/lmr/m/n/10 )\OML/lmm/m/it/10 ; R\OT1/lmr/m/n
 /10 (\OML/lmm/m/it/10 x; y; z\OT1/lmr/m/n/10 )$
  []
 
-[25] [26] [27] [28] [29]
+[29] [30] [31] [32] [33]
 Overfull \hbox (7.02475pt too wide) in paragraph at lines 432--450
  [][] 
  []
@@ -1674,62 +1683,62 @@ Overfull \hbox (7.02475pt too wide) in paragraph at lines 432--450
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30] [31]
+[34] [35]
 
-LaTeX Warning: Text page 32 contains only floats.
+LaTeX Warning: Text page 36 contains only floats.
 
 
 Overfull \vbox (1.43098pt too high) has occurred while \output is active []
 
 
-[32]
+[36]
 Overfull \hbox (3.66629pt too wide) in paragraph at lines 554--596
  [][] 
  []
 
-[33])
+[37])
 \openout2 = `tex/C-9.aux'.
 
- (./tex/C-9.tex [34
+ (./tex/C-9.tex [38
 
 
 
 ]
 Chapter 4.
-[35] [36] [37] [38] [39] [40] [41]
+[39] [40] [41] [42] [43] [44] [45]
 Overfull \hbox (14.42282pt too wide) in paragraph at lines 388--399
  [][] 
  []
 
-[42] [43]) [44]
+[46] [47]) [48]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 275.
+(hyperref)                be the same. Added a new anchor on input line 283.
 
 No file 高等数学.ind.
 \tf@thm=\write9
 \openout9 = `高等数学.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
 (./高等数学.aux (./tex/C-1.aux) (./tex/C-7.aux) (./tex/C-8.aux) (./tex/C-9.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 282.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `高等数学.out' has not changed.
-(rerunfilecheck)             Checksum: 812706B10E08557CEC69B88A901156AE;9724.
+(rerunfilecheck)             Checksum: 6E87E7F70852FFE57B8061E6AE3BE7EC;10110.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
- 33419 strings out of 479418
- 692785 string characters out of 5884585
- 1019022 words of memory out of 5000000
- 50208 multiletter control sequences out of 15000+600000
+ 33449 strings out of 479418
+ 693267 string characters out of 5884585
+ 1019598 words of memory out of 5000000
+ 50238 multiletter control sequences out of 15000+600000
  614326 words of font info for 186 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  59i,21n,96p,942b,815s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 高等数学.pdf (48 pages).
+Output written on 高等数学.pdf (52 pages).

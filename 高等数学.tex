@@ -86,19 +86,19 @@
 
 
 %定义计数器
-\newcounter{theorem}[section]
-\newcounter{defination}[section]
+\newcounter{theorem}[chapter]
+\newcounter{defination}[chapter]
 \newcounter{example}[chapter]
-\newcounter{inference}[section]
+\newcounter{inference}[chapter]
 \newcounter{examples}[chapter]
 \newcounter{tl}[chapter]
 \newcounter{F}[section]
 \newcounter{G}[section]
 \newcounter{H}[section]
-\renewcommand{\thetheorem}{{\CJKfamily{heiti}定理} \textbf{\thesection.\arabic{theorem}}}
-\renewcommand{\thedefination}{{\CJKfamily{heiti}定义} \textbf{\thesection.\arabic{defination}}}
+\renewcommand{\thetheorem}{{\CJKfamily{heiti}定理} \textbf{\thechapter.\arabic{theorem}}}
+\renewcommand{\thedefination}{{\CJKfamily{heiti}定义} \textbf{\thechapter.\arabic{defination}}}
 \renewcommand{\theexample}{{\CJKfamily{heiti}题型} \textbf{\thechapter.\arabic{example}}}
-\renewcommand{\theinference}{{\CJKfamily{heiti}方法} \textbf{\thesection.\arabic{inference}}}
+\renewcommand{\theinference}{{\CJKfamily{heiti}方法} \textbf{\thechapter.\arabic{inference}}}
 \renewcommand{\theexamples}{{\CJKfamily{heiti}例}  \textbf{\thechapter.\arabic{examples}}}
 \renewcommand{\thetl}{{\CJKfamily{heiti}推论}  \textbf{\thechapter.\arabic{tl}}}
 \newcommand{\s}{\hspace*{-2.7em}}
@@ -175,7 +175,7 @@
 \author{
 	{\CJKfamily{kai} \large {易鹏}}\\
 	{\CJKfamily{kai} \large 中山大学}\vspace*{0.5em}\\
-	内部版本号：V5.08.51$\,\,$(内测版)\\
+	内部版本号：V4.21.58.052$\,\,$(内测版)\\
 }
 
 
@@ -240,6 +240,14 @@
 	\begin{tcolorbox}[colframe=red!75!black, colback=yellow!10!white,title=注意,fonttitle =\CJKfamily{heiti}]
 		#1
 \end{tcolorbox}}
+\newcommand{\summarize}[1][]{
+	\vspace*{0.5em}
+	\begin{tcolorbox}[colframe=white!20!black, colback=white!95!black,title=评注,fonttitle =\CJKfamily{heiti}]
+		#1
+\end{tcolorbox}}
+
+%文本高亮
+\newcommand{\highlights}[1][]{\tcbox[colframe =Chocolate , colback =Coral,boxrule=0.5mm,size=small,on line]{\color{white}{\CJKfamily{heiti}#1}}}
 
 %------------------------------------------------------------------------------------------------------------------------%
 
